@@ -1,0 +1,39 @@
+# Secrets — never commit. Copy config.example.json -> config.json and fill in,
+# or set the values as environment variables.
+config.json
+data/wsgi_backup_jobpilot.py
+
+# Generated data + logs
+data/stocks.db
+data/watchlist.db
+data/cache/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vercel/
+.vercel/
+
+# Legacy sibling projects that live in this folder but aren't part of
+# StockPilot (the prototype + a separate Streamlit tool). Kept on disk,
+# excluded from this repo.
+alpha-tracker/
+kronos-forecaster/
+
+# Editor / tooling local config
+.claude/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

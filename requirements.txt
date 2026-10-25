@@ -1,0 +1,25 @@
+# StockPilot backend
+flask>=3.0
+flask-cors>=4.0
+requests>=2.31
+pandas>=2.1
+numpy>=1.26
+yfinance>=0.2.40
+scikit-learn>=1.4
+google-generativeai>=0.8
+
+# Kronos model runtime (optional — predictor falls back to sklearn)
+# torch>=2.1
+# einops>=0.8
+# huggingface_hub>=0.30
+# safetensors>=0.4
+
+# Trading bot (/bot) — sim-first; SimulatedBroker + backtest run fully offline
+python-dotenv>=1.0
+
+# Live-broker adapters (optional — NOT needed for sim/backtest; install only
+# after the backtest gate passes and a live phase is explicitly approved)
+# alpaca-py>=0.30   # reference-only: Alpaca does not serve Canadian residents
+# qtrade>=0.4       # Questrade REST wrapper (Canadian live candidate;
+#                   # order placement may need partner/SnapTrade entitlement)
+# ib_async>=1.0     # Interactive Brokers alternative

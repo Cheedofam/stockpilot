@@ -1,0 +1,18 @@
+{
+  "finnhub_api_key": "YOUR_FINNHUB_API_KEY",
+  "gemini_api_key": "YOUR_GEMINI_API_KEY",
+  "gmail_address": "you@gmail.com",
+  "gmail_app_password": "your gmail app password",
+  "pythonanywhere_token": "YOUR_PYTHONANYWHERE_TOKEN",
+  "pythonanywhere_username": "YourPythonAnywhereUser",
+  "kronos_path": "C:\\Path\\To\\Kronos",
+  "digest_recipient": "you@gmail.com",
+  "sec_user_agent": "StockPilot research tool you@gmail.com",
+  "congress_window_days": 120,
+  "news_window_days": 14,
+  "max_scored_tickers": 40,
+  "watchlist": ["AAPL", "MSFT", "NVDA"],
+  "funds": [
+    {"name": "Berkshire Hathaway", "manager": "Warren Buffett", "cik": 1067983}
+  ]
+}
